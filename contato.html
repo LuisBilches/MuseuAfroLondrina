@@ -80,7 +80,7 @@
                     <!-- Formulário de contato -->
                     <div class="contact-form-card">
                         <h2>Envie sua Mensagem</h2>
-                        <form class="main-contact-form" id="contactForm">
+                        <form class="main-contact-form" action="https://formspree.io/f/xdkogqpw" method="POST">
                             <div class="form-group">
                                 <label for="name">Nome Completo</label>
                                 <input type="text" id="name" name="name" required>
@@ -107,6 +107,10 @@
                                 <label for="message">Mensagem</label>
                                 <textarea id="message" name="message" rows="6" required placeholder="Escreva sua dúvida, sugestão ou mensagem..."></textarea>
                             </div>
+                            
+                            <!-- Campo oculto para identificar o formulário -->
+                            <input type="hidden" name="_subject" value="Nova mensagem do Museu da Memória Preta de Londrina">
+                            <input type="hidden" name="_next" value="https://luisbilches.github.io/MuseuAfroLondrina/contato.html?enviado=sucesso">
                             
                             <button type="submit" class="btn-submit">Enviar Mensagem</button>
                         </form>
@@ -160,9 +164,10 @@
             </div>
             <div class="footer-form">
                 <h3>Envie sua mensagem</h3>
-                <form class="contact-form">
-                    <input type="email" placeholder="Seu email" required>
-                    <textarea placeholder="Mande sua duvida, sugestao, etc." required></textarea>
+                <form class="contact-form" action="https://formspree.io/f/xdkogqpw" method="POST">
+                    <input type="email" name="email" placeholder="Seu email" required>
+                    <textarea name="message" placeholder="Mande sua duvida, sugestao, etc." required></textarea>
+                    <input type="hidden" name="_subject" value="Mensagem rápida - Museu da Memória Preta">
                     <button type="submit">Enviar</button>
                 </form>
             </div>

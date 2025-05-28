@@ -336,9 +336,10 @@
             </div>
             <div class="footer-form">
                 <h3>Envie sua mensagem</h3>
-                <form class="contact-form">
-                    <input type="email" placeholder="Seu email" required>
-                    <textarea placeholder="Mande sua duvida, sugestao, etc." required></textarea>
+                <form class="contact-form" action="https://formspree.io/f/xdkogqpw" method="POST">
+                    <input type="email" name="email" placeholder="Seu email" required>
+                    <textarea name="message" placeholder="Mande sua duvida, sugestao, etc." required></textarea>
+                    <input type="hidden" name="_subject" value="Mensagem rápida - Museu da Memória Preta">
                     <button type="submit">Enviar</button>
                 </form>
             </div>
