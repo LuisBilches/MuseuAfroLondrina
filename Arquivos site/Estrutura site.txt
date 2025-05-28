@@ -1,0 +1,44 @@
+﻿Partes ou divisões do site:
+
+Cabeçalho superior, na horizontal, com arte contendo nome do site. Cabeçalho fixo.
+
+Menu lateral fixo, oculto, com icone para acesso, contendo as seguintes abas:
+- Início
+- História Preta de Londrina
+- Memorias Pretas 
+- Artistas Pretos
+- Artigos Pretos
+- Intituições Pretas
+
+Pagina Inicial:
+
+Plano de fundo: Montagem com fotos
+Textos:  Introdução ao projeto
+Explicação basica do funcionamento do site
+Logo promic
+
+Historia de Londrina: Artigos acadêmicos 
+
+Plano de fundo: Branco
+Textos: Introdução aos artigos e
+ Links para cada artigo (8 no total)
+
+
+Memorias Pretas: Videos curtos com trechos de entrevistas de pioneiros e outros
+Player de video com descrição em texto
+Plano de fundo preto
+
+Artistas: Entrevistas em video com artistas negros e links para obras 
+Player de video com descrição em texto
+Plano de fundo preto
+
+Instituições: Lista de instituições voltadas à população negra. 
+(Descrição, link e contatos)
+
+Rodapé fixo: 
+Caixa de mensagem, email do museu e logo da secretaria de cultura
+
+Artigos:
+1 página para cada artigo.
+
+

@@ -1,0 +1,255 @@
+/* Estilos específicos para a página de Instituições */
+
+.page-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+                url('Arquivos site/Elementos Gráficos/Imagem de fundo 1 - cabe_alho.jpg') center/cover;
+    background-attachment: fixed;
+    padding: 60px 0 40px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    color: #2c1810;
+    margin-bottom: 20px;
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: 'Pfennig', sans-serif;
+}
+
+.institutions-section {
+    background: linear-gradient(135deg, rgba(248, 249, 250, 0.95), rgba(233, 236, 239, 0.95)),
+                url('Arquivos site/Elementos Gráficos/fundo pagina inicial.jpg') center/cover;
+    background-attachment: fixed;
+    padding: 60px 0 80px;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    color: #2c1810;
+    text-align: center;
+    margin: 60px 0 40px;
+    position: relative;
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(135deg, #8B4513, #D4AF37);
+    border-radius: 2px;
+}
+
+.institution-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border-left: 5px solid #D4AF37;
+    position: relative;
+    overflow: hidden;
+}
+
+.institution-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), transparent);
+    border-radius: 0 15px 0 100px;
+}
+
+.institution-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    border-left-color: #8B4513;
+}
+
+.institution-card h3 {
+    font-size: 1.4rem;
+    color: #2c1810;
+    margin-bottom: 15px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+.institution-card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: 'Pfennig', sans-serif;
+}
+
+.contact-info {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.contact-info p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    font-family: 'Pfennig', sans-serif;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+
+.contact-info strong {
+    color: #2c1810;
+    font-weight: 600;
+}
+
+.contact-info a {
+    color: #8B4513;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #D4AF37;
+    text-decoration: underline;
+}
+
+/* Efeitos de animação */
+.institution-card {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.institution-card:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.institution-card:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.institution-card:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.institution-card:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.institution-card:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.institution-card:nth-child(7) {
+    animation-delay: 0.6s;
+}
+
+.institution-card:nth-child(8) {
+    animation-delay: 0.7s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .page-subtitle {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .institution-card {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .institution-card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .contact-info {
+        padding: 15px;
+    }
+    
+    .contact-info p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .institution-card {
+        padding: 15px;
+        border-left-width: 3px;
+    }
+    
+    .institution-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .institution-card p {
+        text-align: left;
+        font-size: 0.95rem;
+    }
+    
+    .contact-info {
+        padding: 12px;
+    }
+    
+    .section-title::after {
+        width: 60px;
+    }
+}
+
+/* Estilo especial para links importantes */
+.contact-info a[href*="instagram"],
+.contact-info a[href*="linktr.ee"],
+.contact-info a[href*="cinemanegrodelondrina"] {
+    background: linear-gradient(135deg, #8B4513, #D4AF37);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+}
+
+.contact-info a[href*="instagram"]:hover,
+.contact-info a[href*="linktr.ee"]:hover,
+.contact-info a[href*="cinemanegrodelondrina"]:hover {
+    background: linear-gradient(135deg, #D4AF37, #B8941F);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(139, 69, 19, 0.3);
+} 

@@ -1,0 +1,38 @@
+# Arquivos compactados grandes
+*.zip
+
+# Arquivos de vídeo (grandes)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+
+# Pasta de vídeos
+Videos/
+*/Videos/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Node modules (caso seja adicionado no futuro)
+node_modules/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo 

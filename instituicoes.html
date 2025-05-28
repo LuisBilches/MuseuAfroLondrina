@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Instituições Pretas - Museu das Memórias Pretas de Londrina</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="instituicoes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho fixo -->
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="museum-title-link">
+                <h1 class="museum-title">Museu da Memória Preta de Londrina</h1>
+            </a>
+        </div>
+    </header>
+
+    <!-- Botão do menu lateral -->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Menu lateral -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <h2>Menu</h2>
+            <ul class="sidebar-menu">
+                <li><a href="index.html" class="menu-link">Início</a></li>
+                <li><a href="historia.html" class="menu-link">História Preta de Londrina</a></li>
+                <li><a href="memorias.html" class="menu-link">Memórias Pretas</a></li>
+                <li><a href="artigos.html" class="menu-link">Artigos Pretos</a></li>
+                <li><a href="instituicoes.html" class="menu-link active">Instituições Pretas</a></li>
+                <li><a href="contato.html" class="menu-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Overlay para fechar menu -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Instituições Pretas</h1>
+                <p class="page-subtitle">Lista de instituições voltadas à população negra com descrições, links e contatos</p>
+            </div>
+        </section>
+
+        <section class="institutions-section">
+            <div class="container">
+                <!-- NEAB -->
+                <div class="institution-card">
+                    <h3>NEAB - Núcleo de Estudos Afro Brasileiros</h3>
+                    <p>O Nucleo de Estudos Afro Brasileiros tem desenvolvido pesquisas, cursos, conferências, encontros, publicações, priorizando questões sócio-históricos e pedagógicos sobre estudos afro-brasileiros, africanos em diferentes sociedades. De forma interdisciplinar, busca também subsidiar a produção de conhecimento para formulação das bases de combate à discriminação racial, ao preconceito e ao racismo.</p>
+                    <div class="contact-info">
+                        <p><strong>Site:</strong> <a href="https://sites.uel.br/neab/" target="_blank">sites.uel.br/neab/</a></p>
+                        <p><strong>Email:</strong> neab@uel.br</p>
+                        <p><strong>Telefones:</strong> (43)3371-4599 - Secretaria / (43)3371-4679 - Coordenação</p>
+                        <p><strong>Horário de Atendimento ao Público:</strong> das 08h30 às 11h30 e das 14h00 às 17:30</p>
+                    </div>
+                </div>
+
+                <!-- CMPIR -->
+                <div class="institution-card">
+                    <h3>CMPIR - Conselho Municipal da Promoção da Igualdade Racial</h3>
+                    <p>Este conselho, um órgão da Prefeitura de Londrina, trabalha para promover a igualdade racial e combater o racismo, envolvendo outras entidades locais.</p>
+                    <div class="contact-info">
+                        <p><strong>Endereço:</strong> Av. Duque de Caxias, 635 - Centro Cívico, CEP: 86015-901, Londrina - Paraná</p>
+                        <p><strong>Email:</strong> cmpir@londrina.pr.gov.br</p>
+                        <p><strong>Telefone:</strong> (43) 3372-4370</p>
+                        <p><strong>Horário:</strong> de segunda a sexta-feira, das 8h às 12h</p>
+                    </div>
+                </div>
+
+                <!-- AABRA -->
+                <div class="institution-card">
+                    <h3>AABRA - Associação Afro-Brasileira de Londrina</h3>
+                    <p>Esta associação é mais recente e se dedica a fortalecer a identidade e a cultura da população negra de Londrina, com foco em ações e projetos que promovam a igualdade racial.</p>
+                    <div class="contact-info">
+                        <p><strong>Endereço:</strong> Rua Senador Souza Naves, 9 Sala 506 - Edifício Julio Fuganti, Centro - Londrina - PR, CEP: 86010-921</p>
+                        <p><strong>Telefone:</strong> (43) 3324-7211</p>
+                    </div>
+                </div>
+
+                <!-- Conselho Municipal da Comunidade Negra -->
+                <div class="institution-card">
+                    <h3>Conselho Municipal da Comunidade Negra de Londrina</h3>
+                    <p>Este conselho é outro órgão importante que defende os direitos e a promoção dos interesses da comunidade negra em Londrina.</p>
+                    <div class="contact-info">
+                        <p><strong>Legislação:</strong> <a href="https://www1.cml.pr.gov.br/leis/1996/web/LE065871996consol.html" target="_blank">Lei de criação</a></p>
+                    </div>
+                </div>
+
+                <!-- MP-PR -->
+                <div class="institution-card">
+                    <h3>Ministério Público do Paraná (MP-PR)</h3>
+                    <p>Através do Grupo de Trabalho de Combate ao Racismo, o MP-PR atua na defesa dos direitos humanos e no combate ao racismo, envolvendo também outras entidades locais.</p>
+                    <div class="contact-info">
+                        <p><strong>Site:</strong> <a href="https://mppr.mp.br/Atuacao-Igualdade-Etnico-racial" target="_blank">Atuação Igualdade Étnico-racial</a></p>
+                        <p><strong>NUPIER:</strong> <a href="https://site.mppr.mp.br/nupier" target="_blank">site.mppr.mp.br/nupier</a></p>
+                    </div>
+                </div>
+
+                <!-- OAB -->
+                <div class="institution-card">
+                    <h3>OAB Subseção Londrina</h3>
+                    <p>A OAB contribui com o combate ao racismo e a defesa dos direitos da população negra, em parceria com outras entidades.</p>
+                    <div class="contact-info">
+                        <p><strong>Campanha:</strong> <a href="https://www.oabpr.org.br/oab-parana-adere-a-campanha-parana-unido-contra-o-racismo/" target="_blank">Paraná Unido Contra o Racismo</a></p>
+                    </div>
+                </div>
+
+                <!-- Rede Socioassistencial -->
+                <div class="institution-card">
+                    <h3>Rede Socioassistencial e Intersetorial</h3>
+                    <p>Listagem de OSC que desenvolvem serviços de natureza socioassistencial co-financiadas pelo município de Londrina.</p>
+                    <div class="contact-info">
+                        <p><strong>Site:</strong> <a href="https://portal.londrina.pr.gov.br/rede-socioassistencial-e-intersetorial" target="_blank">portal.londrina.pr.gov.br/rede-socioassistencial-e-intersetorial</a></p>
+                    </div>
+                </div>
+
+                <h2 class="section-title">Coletivos e Organizações</h2>
+
+                <!-- Coletivo Dona Vilma -->
+                <div class="institution-card">
+                    <h3>Coletivo Dona Vilma Ya Mukumby</h3>
+                    <p>Acolher e aquilombar pessoas negras promovendo debates sobre vivências e combate ao racismo! Reunião toda terça online ou presencial em Londrina PR.</p>
+                    <div class="contact-info">
+                        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/coletivodonavilmaym/" target="_blank">@coletivodonavilmaym</a></p>
+                    </div>
+                </div>
+
+                <!-- Coletivo Quizomba -->
+                <div class="institution-card">
+                    <h3>Coletivo Quizomba</h3>
+                    <p>O Coletivo Quizomba desenvolve o Projeto Quizomba: o samba e outros batuques desde 2005. O Projeto atua junto ao Movimento Negro na perspectiva de preservar e difundir o patrimônio imaterial ligado às manifestações artísticas de matriz africana e indígena e combater a intolerância e o preconceito etino-racial através da arte.</p>
+                    <div class="contact-info">
+                        <p><strong>Links:</strong> <a href="https://linktr.ee/QuizombaLondrina" target="_blank">linktr.ee/QuizombaLondrina</a></p>
+                    </div>
+                </div>
+
+                <!-- COCINE -->
+                <div class="institution-card">
+                    <h3>COCINE - Coletivo de Cinema Negro de Londrina</h3>
+                    <p>O COCINE é composto por pesquisadores e pesquisadoras no campo do Audiovisual, da Comunicação, História Social e dos Estudos da Linguagem.</p>
+                    <div class="contact-info">
+                        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/cocinelondrina/" target="_blank">@cocinelondrina</a></p>
+                        <p><strong>Site:</strong> <a href="https://cinemanegrodelondrina.com.br/" target="_blank">cinemanegrodelondrina.com.br</a></p>
+                    </div>
+                </div>
+
+                <!-- Coletivo APP -->
+                <div class="institution-card">
+                    <h3>Coletivo de Promoção da Igualdade Racial - APP Sindicato Londrina</h3>
+                    <p>Coletivo voltado para a promoção da igualdade racial e combate ao racismo dentro do sindicato dos professores.</p>
+                    <div class="contact-info">
+                        <p><strong>Endereço:</strong> APP Sindicato Londrina - Av. JK, 1834</p>
+                        <p><strong>Mais informações:</strong> <a href="https://www.applondrina.com/2023/11/13/coletivo-de-promocao-da-igualdade-racial-e-de-combate-ao-racismo-da-app-sindicato-londrina-realiza-ato-eu-sou-porque-nos-somos/" target="_blank">Ato "Eu sou porque nós somos"</a></p>
+                    </div>
+                </div>
+
+                <!-- Coletivo Black Divas -->
+                <div class="institution-card">
+                    <h3>Coletivo Black Divas</h3>
+                    <p>Fundado em 2003 pautas: açoes erradicar o racismo; a saúde da Mulher Negra; o empreendedorismo Negro; pautas pelo fim da violência contra a mulher negra.</p>
+                    <div class="contact-info">
+                        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/coletivoblack.divas/" target="_blank">@coletivoblack.divas</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé fixo -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <p>mmp.londrina@gmail.com</p>
+            </div>
+            <div class="footer-form">
+                <h3>Envie sua mensagem</h3>
+                <form class="contact-form">
+                    <input type="email" placeholder="Seu email" required>
+                    <textarea placeholder="Mande sua duvida, sugestao, etc." required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="footer-logo">
+                <p>Secretaria de Cultura</p>
+                <img src="Arquivos site/Elementos Gráficos/logo secretaria de cultura.png" alt="Logo Secretaria de Cultura" class="secretaria-logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

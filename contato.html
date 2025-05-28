@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Contato - Museu das Memórias Pretas de Londrina</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho fixo -->
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="museum-title-link">
+                <h1 class="museum-title">Museu da Memória Preta de Londrina</h1>
+            </a>
+        </div>
+    </header>
+
+    <!-- Botão do menu lateral -->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Menu lateral -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <h2>Menu</h2>
+            <ul class="sidebar-menu">
+                <li><a href="index.html" class="menu-link">Início</a></li>
+                <li><a href="historia.html" class="menu-link">História Preta de Londrina</a></li>
+                <li><a href="memorias.html" class="menu-link">Memórias Pretas</a></li>
+                <li><a href="artigos.html" class="menu-link">Artigos Pretos</a></li>
+                <li><a href="instituicoes.html" class="menu-link">Instituições Pretas</a></li>
+                <li><a href="contato.html" class="menu-link active">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Overlay para fechar menu -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Contato</h1>
+                <p class="page-subtitle">Entre em contato conosco para dúvidas, sugestões ou colaborações</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Informações de contato -->
+                    <div class="contact-info-card">
+                        <h2>Informações de Contato</h2>
+                        <div class="contact-item">
+                            <h3>Email Principal</h3>
+                            <p>mmp.londrina@gmail.com</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Sobre o Museu</h3>
+                            <p>O Museu das Memórias Pretas de Londrina é um espaço dedicado à preservação e divulgação da história e cultura da população negra de Londrina e região.</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Missão</h3>
+                            <p>Promover a visibilidade contínua de todas as etnias que compõem a região em combate ao apagamento histórico e social.</p>
+                        </div>
+                    </div>
+
+                    <!-- Formulário de contato -->
+                    <div class="contact-form-card">
+                        <h2>Envie sua Mensagem</h2>
+                        <form class="main-contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Assunto</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="duvida">Dúvida</option>
+                                    <option value="sugestao">Sugestão</option>
+                                    <option value="colaboracao">Colaboração</option>
+                                    <option value="pesquisa">Pesquisa</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Escreva sua dúvida, sugestão ou mensagem..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Seção de envio de artigos -->
+                <div class="article-submission">
+                    <h2>Mande seu artigo</h2>
+                    <p>O Museu das Memorias Pretas de Londrina está abrindo espaço para que pesquisadores negros possam divulgar seus artigos acadêmicos, livros e pesquisas. Preencha o formulário abaixo para enviar seu artigo para o Museu.</p>
+                    <p>Todos os artigos serão hospedados no site do museu.</p>
+                    <p>Agradecemos sua participação na construção de novas narrativas, que com certeza farão diferença no futuro.</p>
+                    
+                    <div class="article-form-container">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqglND67Lbnf-uIEI5TvLpY8IdC24YrD_bPjQhKQ0Y8bSrLg/viewform" target="_blank" class="btn-article">
+                            Enviar Artigo Acadêmico
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Seção de colaboração -->
+                <div class="collaboration-section">
+                    <h2>Colabore Conosco</h2>
+                    <div class="collaboration-grid">
+                        <div class="collaboration-card">
+                            <h3>Pesquisadores</h3>
+                            <p>Se você é pesquisador e tem interesse em contribuir com estudos sobre a história negra de Londrina, entre em contato.</p>
+                        </div>
+                        
+                        <div class="collaboration-card">
+                            <h3>Artistas</h3>
+                            <p>Artistas negros de Londrina são convidados a participar do nosso acervo de entrevistas e obras.</p>
+                        </div>
+                        
+                        <div class="collaboration-card">
+                            <h3>Instituições</h3>
+                            <p>Organizações e instituições interessadas em parcerias podem nos contatar para colaborações.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé fixo -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <p>mmp.londrina@gmail.com</p>
+            </div>
+            <div class="footer-form">
+                <h3>Envie sua mensagem</h3>
+                <form class="contact-form">
+                    <input type="email" placeholder="Seu email" required>
+                    <textarea placeholder="Mande sua duvida, sugestao, etc." required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="footer-logo">
+                <p>Secretaria de Cultura</p>
+                <img src="Arquivos site/Elementos Gráficos/logo secretaria de cultura.png" alt="Logo Secretaria de Cultura" class="secretaria-logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contato.js"></script>
+</body>
+</html> 

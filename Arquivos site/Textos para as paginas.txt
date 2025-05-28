@@ -1,0 +1,69 @@
+﻿Cabeçalho superior
+
+MUSEU DAS MEMÓRIAS PRETAS DE LONDRINA
+
+Menu lateral fixo, oculto, com ícone para acesso, contendo as seguintes abas:
+- Início
+- História Preta de Londrina
+- Memorias Pretas 
+- Intituições Pretas
+- Contato
+
+Pagina Inicial:
+
+
+Textos: 
+
+Olá, seja bem vindo ao Museu das Memorias Pretas de Londrina, um espaço para conhecer e aprender sobre a história das populações negras de nossa cidade. Seja bem vindo e qualquer duvida em entre em contato.
+
+
+Logo promic
+
+
+Historia de Londrina: 
+
+
+
+Artigos acadêmicos 
+
+Plano de fundo: Branco
+Textos: Introdução aos artigos e
+ Links para cada artigo (cada artigo em uma página diferente)
+
+Memorias Pretas: Videos curtos com trechos de entrevistas de pioneiros e outros
+Player de video com descrição em texto
+Plano de fundo preto
+
+Instituições: Lista de instituições voltadas à população negra. 
+(Descrição, link e contatos)
+
+Rodapé fixo: 
+Caixa de mensagem, email do museu e logo da secretaria de cultura
+
+Contato
+
+mmp.londrina@gmail.com
+
+
+
+Caixinha Mande sua duvida, sugestao, etc.
+(Pessoa tem que colocar o e-mail)
+
+Mande seu artigo
+
+O Museu das Memorias Pretas de Londrina está abrindo espaço para que pesquisadores negros possam divulgar seus artigos acadêmicos, livros e pesquisas. Preencha o formulário abaixo para enviar seu artigo para o Museu.
+Todos os artigos serão hospedados no site do museu.
+Agradecemos sua participação na construção de novas narrativas, que com certeza farão diferença no futuro.
+
+Link - https://docs.google.com/forms/d/e/1FAIpQLSdqglND67Lbnf-uIEI5TvLpY8IdC24YrD_bPjQhKQ0Y8bSrLg/viewform
+
+
+
+
+
+
+
+
+
+
+

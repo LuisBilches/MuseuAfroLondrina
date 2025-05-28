@@ -1,0 +1,229 @@
+/* Estilos específicos para a página de Memórias */
+
+body {
+    background: #000;
+}
+
+.page-header {
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.9), rgba(0, 0, 0, 0.9)),
+                url('Arquivos site/Elementos Gráficos/Imagem de fundo 1 - cabe_alho.jpg') center/cover;
+    background-attachment: fixed;
+    padding: 60px 0 40px;
+    text-align: center;
+    color: white;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    color: #D4AF37;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: 'Pfennig', sans-serif;
+}
+
+.videos-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                url('Arquivos site/Elementos Gráficos/fundo pagina inicial.jpg') center/cover;
+    background-attachment: fixed;
+    padding: 40px 0 80px;
+    color: white;
+}
+
+.person-section {
+    margin-bottom: 80px;
+    padding: 40px 0;
+    border-bottom: 2px solid #333;
+}
+
+.person-section:last-child {
+    border-bottom: none;
+}
+
+.person-section h2 {
+    font-size: 2.2rem;
+    color: #D4AF37;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+.person-bio {
+    font-size: 1.1rem;
+    color: #ccc;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+    font-family: 'Pfennig', sans-serif;
+}
+
+.videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.video-card {
+    background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+    border: 1px solid #333;
+}
+
+.video-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(212, 175, 55, 0.2);
+    border-color: #D4AF37;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.video-card h3 {
+    font-size: 1.2rem;
+    color: #D4AF37;
+    margin: 0;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+/* Efeito de brilho nos cards */
+.video-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent, rgba(212, 175, 55, 0.1), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 15px;
+    pointer-events: none;
+}
+
+.video-card:hover::before {
+    opacity: 1;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .page-subtitle {
+        font-size: 1rem;
+    }
+    
+    .person-section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .person-bio {
+        font-size: 1rem;
+        text-align: left;
+    }
+    
+    .videos-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .video-card {
+        padding: 15px;
+    }
+    
+    .video-card h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .person-section {
+        margin-bottom: 60px;
+        padding: 20px 0;
+    }
+    
+    .person-section h2 {
+        font-size: 1.5rem;
+    }
+    
+    .person-bio {
+        font-size: 0.95rem;
+        padding: 0 15px;
+    }
+    
+    .video-card {
+        padding: 12px;
+    }
+    
+    .video-card h3 {
+        font-size: 1rem;
+    }
+}
+
+/* Animações */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.video-card {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.video-card:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.video-card:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.video-card:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.video-card:nth-child(5) {
+    animation-delay: 0.4s;
+} 

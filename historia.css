@@ -1,0 +1,188 @@
+/* Estilos específicos para a página de História */
+
+.page-header {
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+                url('Arquivos site/Elementos Gráficos/Imagem de fundo 1 - cabe_alho.jpg') center/cover;
+    background-attachment: fixed;
+    padding: 60px 0 40px;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    color: #2c1810;
+    margin-bottom: 20px;
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-family: 'Pfennig', sans-serif;
+}
+
+.intro-text {
+    background: linear-gradient(135deg, rgba(248, 249, 250, 0.95), rgba(233, 236, 239, 0.95)),
+                url('Arquivos site/Elementos Gráficos/fundo pagina inicial.jpg') center/cover;
+    background-attachment: fixed;
+    padding: 60px 0;
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Pfennig', sans-serif;
+}
+
+.articles-section {
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+                url('Arquivos site/Elementos Gráficos/Imagem de fundo 1 - cabe_alho.jpg') center/cover;
+    background-attachment: fixed;
+    padding: 80px 0;
+}
+
+.articles-section h2 {
+    font-size: 2.5rem;
+    color: #2c1810;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.article-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.article-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(135deg, #8B4513, #D4AF37);
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.article-card h3 {
+    font-size: 1.3rem;
+    color: #2c1810;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+.article-card p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    font-family: 'Pfennig', sans-serif;
+}
+
+.submit-article {
+    background: linear-gradient(135deg, rgba(44, 24, 16, 0.95), rgba(139, 69, 19, 0.95)),
+                url('Arquivos site/Elementos Gráficos/fundo pagina inicial.jpg') center/cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.submit-article h3 {
+    font-size: 2rem;
+    color: #D4AF37;
+    margin-bottom: 20px;
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+}
+
+.submit-article p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    opacity: 0.9;
+    font-family: 'Pfennig', sans-serif;
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #D4AF37, #B8941F);
+    color: #2c1810;
+    margin-top: 20px;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #B8941F, #9A7A1A);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .page-subtitle {
+        font-size: 1rem;
+    }
+    
+    .articles-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .article-card {
+        padding: 20px;
+    }
+    
+    .submit-article {
+        padding: 30px 20px;
+        margin: 0 20px;
+    }
+    
+    .submit-article h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-text p {
+        font-size: 1rem;
+        text-align: left;
+    }
+    
+    .articles-section h2 {
+        font-size: 2rem;
+    }
+    
+    .article-card h3 {
+        font-size: 1.1rem;
+    }
+} 

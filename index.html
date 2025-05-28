@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Museu das Memórias Pretas de Londrina</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho fixo -->
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="museum-title-link">
+                <h1 class="museum-title">Museu da Memória Preta de Londrina</h1>
+            </a>
+        </div>
+    </header>
+
+    <!-- Botão do menu lateral -->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Menu lateral -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <h2>Menu</h2>
+            <ul class="sidebar-menu">
+                <li><a href="#inicio" class="menu-link active">Início</a></li>
+                <li><a href="historia.html" class="menu-link">História Preta de Londrina</a></li>
+                <li><a href="memorias.html" class="menu-link">Memórias Pretas</a></li>
+                <li><a href="artigos.html" class="menu-link">Artigos Pretos</a></li>
+                <li><a href="instituicoes.html" class="menu-link">Instituições Pretas</a></li>
+                <li><a href="contato.html" class="menu-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Overlay para fechar menu -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <section class="hero" id="inicio">
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Bem-vindo ao Museu das Memórias Pretas de Londrina</h1>
+                    <p>Museu das Memorias Pretas de Londrina, um espaço para conhecer e aprender sobre a história das populações negras de nossa cidade. Seja bem vindo e qualquer duvida entre em contato.</p>
+                </div>
+                <div class="hero-logo">
+                    <img src="Arquivos site/Elementos Gráficos/Logo.jpg" alt="Logo PROMIC" class="promic-logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de introdução -->
+        <section class="intro-section">
+            <div class="container">
+                <h2>Nossa História</h2>
+                <p>A comunidade negra se faz presente na região de Londrina desde a formação de São Pedro de Alcântara através da rota de entrada de Paranaguá se ocupando inicialmente com trabalhos da lavoura dentro da lógica da política de domínio ainda do início do século XX.</p>
+                <p>O processo de migração, no entanto, se intensificou durante a década de 1950 com a expansão da produção cafeeira devido à propaganda atrativa promovida pela Companhia de Terras Norte do Paraná e às condições difíceis da zona rural do Brasil como um todo.</p>
+                <p>O Museu da Memórias Pretas de Londrina compreende que a presença da população negra foi e é fundamental para o panorama histórico da cidade. Por esta razão, os registros da população negra estão em destaque para que haja a promoção contínua de visibilidade de todas as etnias que compõem a região em combate ao apagamento histórico e social.</p>
+            </div>
+        </section>
+
+        <!-- Seção de navegação rápida -->
+        <section class="quick-nav">
+            <div class="container">
+                <h2>Explore o Museu</h2>
+                <div class="nav-cards">
+                    <div class="nav-card">
+                        <h3>História Preta de Londrina</h3>
+                        <p>Conheça a história da presença e contribuição da população negra na formação de Londrina</p>
+                        <a href="historia.html" class="btn">Explorar</a>
+                    </div>
+                    <div class="nav-card">
+                        <h3>Artigos Pretos</h3>
+                        <p>Artigos acadêmicos sobre a presença e contribuição da população negra na formação de Londrina</p>
+                        <a href="artigos.html" class="btn">Ler Artigos</a>
+                    </div>
+                    <div class="nav-card">
+                        <h3>Memórias Pretas</h3>
+                        <p>Vídeos com trechos de entrevistas de pioneiros e personalidades negras da cidade</p>
+                        <a href="memorias.html" class="btn">Assistir</a>
+                    </div>
+                    <div class="nav-card">
+                        <h3>Instituições Pretas</h3>
+                        <p>Lista de instituições voltadas à população negra com descrições, links e contatos</p>
+                        <a href="instituicoes.html" class="btn">Conectar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé fixo -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <p>mmp.londrina@gmail.com</p>
+            </div>
+            <div class="footer-form">
+                <h3>Envie sua mensagem</h3>
+                <form class="contact-form">
+                    <input type="email" placeholder="Seu email" required>
+                    <textarea placeholder="Mande sua duvida, sugestao, etc." required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="footer-logo">
+                <p>Secretaria de Cultura</p>
+                <img src="Arquivos site/Elementos Gráficos/logo secretaria de cultura.png" alt="Logo Secretaria de Cultura" class="secretaria-logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
