@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalidades Negras - Museu das Memórias Pretas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="personalidades-page">
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="museum-title-link">
+                <h1 class="museum-title">Museu da Memória Preta de Londrina</h1>
+            </a>
+        </div>
+    </header>
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <h2>Menu</h2>
+            <ul class="sidebar-menu">
+                <li><a href="index.html" class="menu-link">Início</a></li>
+                <li><a href="historia.html" class="menu-link">História Preta de Londrina</a></li>
+                <li><a href="personalidades.html" class="menu-link active">Personalidades Negras</a></li>
+                <li><a href="pes-vermelhos.html" class="menu-link">Pés vermelhos Memórias Pretas</a></li>
+                <li><a href="memorias.html" class="menu-link">Memórias Pretas</a></li>
+                <li><a href="instituicoes.html" class="menu-link">Instituições Pretas</a></li>
+                <li><a href="contato.html" class="menu-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="overlay" id="overlay"></div>
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Personalidades Negras</h1>
+                <p class="page-subtitle">Conheça a trajetória de grandes nomes da história preta de Londrina</p>
+            </div>
+        </section>
+        <section class="person-section">
+            <div class="container">
+                <div class="person-card">
+                    <button class="person-toggle" onclick="togglePerson(this)">
+                        <span>Justiniano Clímaco da Silva</span>
+                        <span class="toggle-icon">+</span>
+                    </button>
+                    <div class="person-content" style="display: none;">
+                        <h3>O Doutor Preto</h3>
+                        <p><em>(texto de Marina Stuchi)</em></p>
+                        <p>Justiniano Clímaco da Silva, o Doutor Preto, como era conhecido em Londrina, nasceu no dia 8 de janeiro de 1908, na cidade de Santo Amaro da Purificação, Estado da Bahia. É filho de Justino de Matos da Silva, carpinteiro, e de Anastácia da Anunciação, trabalhadora doméstica. Segundo relatos orais e memórias de família, Justiniano Clímaco da Silva era neto de escravizados.</p>
+                        <p>Seus pais eram pobres e não tinham condições de bancar seus estudos, porém Justiniano foi para Salvador com a ajuda de uma tia, Maria Juliana dos Passos Ferreira, que morava na cidade. Formou-se primeiramente como professor, obtendo o título de Bacharel em Ciências e Letras e ministrou aulas como professor de Matemática e Latim. Com o dinheiro que ganhava como professor pôde bancar financeiramente seus estudos e assim formou-se médico em 1933, pela Faculdade de Medicina da Bahia, sendo o único negro numa turma de 95 universitários.</p>
+                        <p>Foi um dos primeiros médicos a chegar a Londrina, em 1938, num período de grandes epidemias que levaram muitas pessoas a morte no município. Foi médico da saúde pública da cidade e tornou-se especialista no combate às doenças infectocontagiosas como a malária e a febre amarela. Foi o primeiro médico negro atuante em Londrina, cidade onde clinicou por mais de 50 anos, tendo atendido mais de 30 mil pacientes, sobretudo a parcela pobre da população.</p>
+                        <p>Dr. Clímaco foi médico da saúde pública e, assim como os outros médicos pioneiros, enfrentou a falta de recursos e as carências materiais, porém, praticava o ofício com comportamento comunitário, atendendo a quem precisasse. Fazia partos, cirurgias do estômago e de apendicite. Tratava casos de lepra, tifo, tuberculose, febre amarela, malária, pneumonia, que eram doenças graves e típicas da época. Além das doenças mencionadas, também tratou os pacientes de blemorragia, a popular gonorréia, por haver em Londrina uma das mais populosas zonas do meretrício do Brasil, sendo o primeiro médico a usar a penicilina em Londrina, que possibilitava a cura dessa doença, que fazia vítimas fatais no município.</p>
+                        <p>Participou ativamente para a construção da Santa Casa, doando ao hospital sua própria maleta médica, e, tal como outros colegas da época, dedicou-se gratuitamente ao Pronto Socorro da Santa Casa durante duas décadas.</p>
+                        <p>Além de médico, tornou-se proprietário e diretor do periódico Paraná-Jornal, um dos primeiros jornais da cidade. Em sua trajetória em Londrina, o Dr Clímaco teve mais de 100 afilhados de batismo e casamento, pessoas que ele fez nascer de suas próprias mãos e que os pais por gratidão, pois na maior parte dos casos ele não cobrava, faziam dele padrinho dessas crianças. O Dr. Clímaco teve um filho adotivo, o médico cardiologista José Alberto Correia da Silva que atua ainda hoje em Londrina.</p>
+                        <p>No ano de 1941, Londrina contava com uma população de 13.000 habitantes, o que inspirou o corpo médico a fundar a Associação Médica de Londrina, e o Dr Clímaco foi um dos sócios fundadores, além de diretor da entidade em diversas gestões. O ano também foi marcado pelo planejamento da construção de grandes hospitais: Hospital da Irmandade da Santa Casa de Misericórdia e Hospital Evangélico.</p>
+                        <p>Dr. Clímaco foi eleito Deputado Estadual constituinte pelo Partido Social Democrático, como o quinto mais votado do Paraná e o primeiro eleito por Londrina. Em uma de suas ações como deputado, o Dr. Clímaco lutou pela criação de um hospital de tuberculosos na região. O apelo foi atendido e o hospital foi construído onde atualmente é o Hospital Universitário de Londrina.</p>
+                        <p>Em 1996, foi concedido ao Dr. Clímaco o Título de Cidadão Honorário do Estado do Paraná, sob a lei Nº. 11502 - 05/08/1996. O médico pioneiro morreu em 27 de agosto de 2000, aos 92 anos de idade. No dia 30 de outubro de 2002, a Câmara Municipal de Londrina aprovou a Lei Nº 8946, que denominou Doutor Justiniano Clímaco da Silva a Unidade Básica de Saúde do Conjunto Habitacional Vivi Xavier, região Norte de Londrina.</p>
+                    </div>
+                </div>
+                <div class="person-card">
+                    <button class="person-toggle" onclick="togglePerson(this)">
+                        <span>Vilma Santos</span>
+                        <span class="toggle-icon">+</span>
+                    </button>
+                    <div class="person-content" style="display: none;">
+                        <h3>Dona Vilma - Yá Mukumby</h3>
+                        <p><em>(texto de Marina Stuchi)</em></p>
+                        <p>Vilma Santos, a Yá Mukumby como era conhecida, chegou a Londrina em 1961, então com 11 anos. E na vizinha cidade de Cambé (16 km de Londrina), ela coordenou durante 45 anos o terreiro de Candomblé Ilê Axé Ogum Megê, do qual foi fundadora. Ela foi uma das mães de santo do candomblé mais conhecidas da região e referência do Movimento Negro paranaense.</p>
+                        <p>Quando se trata de resistência negra em Londrina, é impossível não falar de D. Vilma ou Yá Mukumby, como é conhecida. A história de luta do Movimento Negro londrinense perpassa a história de vida desta mulher nascida em Jacarezinho, no interior do Paraná, no dia 17 de julho do ano de 1950. D. Vilma é filha de Allial Oliveira dos Santos, nascida em Piraju, São Paulo, e Antonio dos Santos, nascido em Paraisópolis, Minas Gerais. Seus pais foram para Jacarezinho na época em que o cultivo de cana trouxe para a região muitos trabalhadores dos estados de São Paulo e Minas Gerais, para trabalhar em uma usina de produção de açúcar no município.</p>
+                        <p>Foi em Jacarezinho que Sr. Antônio e Dona Allial se conheceram e se casaram, em 1949. Após 11 dias do nascimento de D. Vilma, em 1950, o seu pai faleceu, aos 22 anos de idade. A mãe de D. Vilma, então, ficou sozinha e responsável por cuidar da filha recém-nascida e também de sua mãe — Georgina Almeida de Oliveira, que era paralítica. Foi com a profissão de costureira, que aprendera com sua mãe, que Dona Allial conseguiu manter sua família.</p>
+                        <p>Em 1951, D. Allial mudou-se para Londrina, junto com sua mãe e sua filha. Foi um tio de D. Vilma, Leodoro Almeida de Oliveira, irmão de D. Allial, quem colaborou para a vinda da família para a nova cidade que emergia no Norte do Paraná.</p>
+                        <p>Pode-se pensar que foi por meio do tio Leodoro que D. Vilma, ainda criança, teve os primeiros contatos com as reflexões sobre a temática racial. A casa onde morava com sua mãe e avó ficava ao lado da Associação Recreativa Operária de Londrina (AROL), na Vila Nova. Importante destacar que tio Leodoro juntamente com Manoel Cypriano e Dr. Oscar Nascimento desempenharam um papel muito importante na formação da primeira organização negra da cidade.</p>
+                        <p>D. Vilma casou-se aos 24 anos de idade, em 1974, com Flávio de Oliveira, que atua profissionalmente como pintor. Tiveram quatro filhos e adotaram mais dois, são eles: Gislene Helena Santos de Oliveira, Lincoln Santos de Oliveira (em memória), Robson Eduardo de Oliveira, Patrícia Fernanda de Lima, Vanessa Santos de Oliveira e Victor Jubiaba dos Santos.</p>
+                        <p>Apesar da enorme influência de D. Vilma no meio acadêmico londrinense, ela teve sua vida escolar marcada por diversos problemas. Em decorrência da discriminação racial (traço marcante na vida da população negra no Brasil) e também do que os médicos chamaram de crises de epilepsia, que sofria na adolescência, ela não pôde completar o segundo grau. Sua trajetória escolar começou na Escola Estadual Nilo Peçanha e continuou na Escola Estadual José de Anchieta.</p>
+                        <p>A passagem da infância para a adolescência de D. Vilma foi marcada pelo que os médicos chamavam de crises epiléticas. A busca de tratamento convencional não resolveu seu problema de saúde, o que fez com que sua mãe procurasse ajuda religiosa, a princípio em um Centro Espírita, e depois na Umbanda. Assim, D. Vilma passou a participar dos cultos umbandistas, posteriormente conhecendo o Candomblé por intermédio de uma tia, Maria Almeida de Andrade. Suas crises de epilepsia foram superadas e Dona Vilma tornou-se uma iniciante no Candomblé, conquistando um prestígio muito grande dentro da religião.</p>
+                        <p>Aos 26 anos, D. Vilma tornou-se Mãe de Santo, Yalorixá Mukumby Alagângue, qualidade de seu Orixá, Ogum da Nação Angola. Sua Casa de Candomblé, situada no bairro Josiane, em Cambé, nomeada Ilé Ashé Ogum Mêge, provavelmente é uma das mais antigas da região de Londrina, sendo erguida com recursos próprios na década de 1970, levando aproximadamente 10 anos para ser construída. No Ilé Ashé Ogum Mêge, são realizados vários projetos socioeducacionais e culturais, cujo principal objetivo é promover a cidadania e a preservação da cultura afro-brasileira, atingindo principalmente os grupos populacionais marginalizados e discriminados.</p>
+                        <p>Na década de 1970, Yalorixá Mukumby passou a desenvolver as atividades do Terreiro, trabalhando na conservação da cultura afro-brasileira. Foi nessa época que iniciou sua militância política e negra, inspirada pelas lições acumuladas do cotidiano (convivendo com o racismo e a discriminação), do movimento estudantil e da formação familiar vinculada ao tio Leodoro e à AROL. Yá Mukumby começou a participar do grupo União e Consciência Negra, inicialmente organizado por Nilson Domingues, e posteriormente engajou-se no Movimento Negro de Londrina, liderado na época por Idalto José de Almeida. A partir desse momento, dedicou sua vida pessoal às bandeiras sociais e políticas deste agrupamento. Sua trajetória política e religiosa, no Candomblé, no movimento negro e, a partir da década de 1980, no Partido dos Trabalhadores (PT) fez com que D. Vilma conquistasse visibilidade e passasse a ser conhecida e respeitada pela sociedade londrinense envolvida com o debate político e racial.</p>
+                        <p>Juntamente com outros representantes do Movimento Negro, também participou da elaboração de aproximadamente 21 Semanas Zumbi dos Palmares na cidade de Londrina.</p>
+                        <p>A participação de D. Vilma em projetos oficiais ocorreu a partir do encontro realizado pelo CENARAB (Centro Nacional de Africanidade e Resistência Afrobrasileira) , no início dos anos 1990 em Florianópolis-SC. Desde então, assumiu a incumbência de disseminar os ideais dessa entidade por todo o Norte do Paraná. Essa militância, inspirada na difusão dos valores e da cultura africana e sua resistência no Brasil, aproximaram-a de Idalto José de Almeida, seu amigo e militante do movimento negro de Londrina, juntos articularam a criação do ProRanti, cujo significado na língua yorubá é “aqueles que todos devem lembrar”.</p>
+                        <p>Dona Vilma também ajudou a construir o carnaval de Londrina, primeira grande expressão da cultura negra na cidade. A menina Vilma tinha dez anos quando assistiu à criação da nossa primeira escola de samba, a Unidos da Vila Nova, fundada em 1960. Mas sua paixão foi a Quilombo, ou Grêmio Recreativo Quilombo dos Palmares, surgida em 1984 – e que de alguma maneira politizou os temas dos enredos; nos anos 80 o carnaval estava nas mãos de uma nova geração de jovens lideranças negras. Joaquim Braga, o Braguinha, alma da Quilombo, ressalta que por um bom tempo a casa de D.Vilma no jardim Hedy foi a sede informal da escola.</p>
+                        <p>Em 20 de novembro de 2002, no Dia da Consciência Negra, a Câmara Municipal de Londrina instituiu o Prêmio Zumbi dos Palmares, que objetiva homenagear militantes do movimento negro, no qual a primeira edição contemplou o Dr. Oscar do Nascimento e D. Vilma Santos de Oliveira.</p>
+                        <p>O ano de 2008 marca a realização de mais um importante projeto edificado por D. Vilma, o show “Vilma de todos os Santos” que foi financiado pelo Programa Municipal de Incentivo à Cultura (PROMIC), cujo objetivo é difundir sambas de roda para a comunidade.</p>
+                        <p>A visibilidade e importância de D. Vilma na imprensa local e nacional foram constituídas pelo seu trabalho, tanto é que se tornou uma Mestre Griô em 2009, vinculada ao Ministério da Cultura, sendo reconhecida por promover a tradição oral como preservação da cultura negra, a partir do seu trabalho nas escolas públicas de Londrina.</p>
+                        <p>Importante lembrar a luta de D. Vilma para a implementação das cotas na Universidade Estadual de Londrina, um importante passo que possibilitou a mobilidade da população negra na cidade, trazendo para o campus da UEL novos estudantes em diversas áreas do conhecimento. A Nossa Yá Mukumby lutou até o último dia de sua vida pelo seu povo, pela justiça social e por um mundo diferente, mais igualitário e livre do racismo.</p>
+                    </div>
+                </div>
+                <div class="person-card">
+                    <button class="person-toggle" onclick="togglePerson(this)">
+                        <span>Cypriano Manoel</span>
+                        <span class="toggle-icon">+</span>
+                    </button>
+                    <div class="person-content" style="display: none;">
+                        <h3>Cypriano Manoel, a liderança da comunidade negra dos anos de 1930 a 1964</h3>
+                        <p><em>(texto de Marina Stuchi)</em></p>
+                        <p>O Sr. Manoel Cypriano nasceu provavelmente no ano de 1900 na cidade de Amparo, estado de São Paulo, a data de nascimento do Sr. Cypriano não é muito precisa e há duas referências sobre essa informação, a primeira se refere ao seu atestado de óbito que indica como data do falecimento 14 de agosto de 1964, aos 64 anos de idade; a segunda é pautada em dados fornecidos pelo Dr. Oscar Nascimento, que conviveu com ele e participou da organização negra ao qual o Sr. Cypriano foi o fundador nos final dos anos de 1930.</p>
+                        <p>Acredita-se que o Sr. Cypriano saiu de sua cidade natal ainda jovem e foi para a capital paulista, onde relatava aos amigos mais próximos ter tido uma convivência com o jovem ator Grande Otelo, esta convivência deve ter se dado pois o Sr. Cypriano já exercendo a profissão de motorista, pode ter sido contratado pela família Queiroz que adotou o ator em São Paulo. Cypriano sempre exerceu a profissão de motorista, em São Paulo trabalhou para a elite paulistana, obteve ótimas referências como profissional, tanto que na cidade de Campinas onde morou por um tempo maior e chegou a constituir família não teve qualquer dificuldade para exercer a profissão, era pelo contrário, a preferência também da elite da cidade.</p>
+                        <p>Chegou à cidade de Londrina por volta de 1934 em busca de uma nova perspectiva de vida, a chance de prosperar junto a uma cidade que era tida como o Eldorado do sul do país. Ainda em 1934 foi contratado pela Companhia de Terras Norte do Paraná – CTNP como motorista. Num primeiro momento ele dirigiu um caminhão que levava e trazia os trabalhadores que iam abrindo caminho na mata fechada ao redor da então nascente cidade.</p>
+                        <p>Quando o Sr. Cypriano chega à Londrina, ele percebe que a comunidade negra possuia um poder aquisitivo menor e ficava à margem de locais frequentados pela “elite” dessa nova cidade que se constituía. Porém, logo ele conheceu na cidade o médico Justiniano Clímaco da Silva, outra liderança negra em Londrina, que em 1946 por influência do Partido Social Democrático – PSD o convenceu a candidatar-se a deputado estadual constituinte e a elaborar um jornal que pudesse dar sustentação ao governo do estado na região.</p>
+                        <p>Nesse contexto o Dr. Clímaco com o gráfico Fausto Peppe, fundaram o Paraná-Jornal. As discussões políticas tinham um lugar privilegiado na vida do Sr. Cypriano, pois ele convivia com os políticos da cidade e os próprios diretores da Companhia, desenvolvendo um laço estreito com os “pioneiros”. Mas, para Cypriano era fundamental a luta pelos direitos de seu povo e se tornou, assim, o líder fundador da Sociedade Beneficente Princesa Isabel em 1939. Ele percebeu o momento propício, diante de suas boas relações, para adquirir algo em prol da comunidade negra, especialmente com relação aos interesses e objetivos que ele tinha para a organização negra que estava contribuindo na consolidação da formação da sociedade londrinense.</p>
+                        <p>A Sociedade Beneficente Princesa Isabel tinha como objetivos promover um espaço de recreação à comunidade, uma escola que valorizasse a cultura e trajetória do negro no Brasil, que pudesse também proporcionar assistência médica, odontológica e jurídica de caráter filantrópico para toda a população negra na cidade.</p>
+                        <p>Em toda trajetória do Sr. Cypriano em Londrina, esta esteve integrada com a organização negra. Ele foi o pivô das conquistas que o Clube teve, desde sua formação em 1937 com o Quadrado, passando pela Sociedade Beneficente Princesa Isabel quando foi possível colocar as ideias e objetivos no papel e criar mecanismos de pôr em prática seus ideias, pois sua intensão era utilizar de sua influência para articular o recebimento de verbas públicas para a construção de uma sede para abrigar, especialmente, uma escola que atendesse os interesses da comunidade negra e ser também a sede da AROL.</p>
+                        <p>Devemos homenagear Manoel Cypriano, um dos primeiros a chegar na cidade, um verdadeiro pioneiro em Londrina, devido a sua grande contribuição na articulação e defesa dos direitos da população negra na cidade, assim como reconhecer sua importância na luta pela educação e combate ao racismo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <p>mmp.londrina@gmail.com</p>
+            </div>
+            <div class="footer-form">
+                <h3>Envie sua mensagem</h3>
+                <form class="contact-form" action="https://formspree.io/f/xdkogqpw" method="POST">
+                    <input type="email" name="email" placeholder="Seu email" required>
+                    <textarea name="message" placeholder="Mande sua duvida, sugestao, etc." required></textarea>
+                    <input type="hidden" name="_subject" value="Mensagem rápida - Museu da Memória Preta">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="footer-logo">
+                <span style="font-size: 0.8rem; display: block; margin-bottom: 2px; color: #fff; letter-spacing: 0.5px;">projeto patrocinado pela:</span>
+                <img src="Arquivos site/Elementos Gráficos/logo secretaria de cultura.png" alt="Logo Secretaria de Cultura" class="secretaria-logo">
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        function togglePerson(btn) {
+            const content = btn.nextElementSibling;
+            const icon = btn.querySelector('.toggle-icon');
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                icon.textContent = '-';
+            } else {
+                content.style.display = 'none';
+                icon.textContent = '+';
+            }
+        }
+    </script>
+</body>
+</html> 

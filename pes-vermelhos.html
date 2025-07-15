@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pés vermelhos Memórias Pretas - Museu das Memórias Pretas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="museum-title-link">
+                <h1 class="museum-title">Museu da Memória Preta de Londrina</h1>
+            </a>
+        </div>
+    </header>
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <h2>Menu</h2>
+            <ul class="sidebar-menu">
+                <li><a href="index.html" class="menu-link">Início</a></li>
+                <li><a href="historia.html" class="menu-link">História Preta de Londrina</a></li>
+                <li><a href="personalidades.html" class="menu-link">Personalidades Negras</a></li>
+                <li><a href="pes-vermelhos.html" class="menu-link active">Pés vermelhos Memórias Pretas</a></li>
+                <li><a href="memorias.html" class="menu-link">Memórias Pretas</a></li>
+                <li><a href="instituicoes.html" class="menu-link">Instituições Pretas</a></li>
+                <li><a href="contato.html" class="menu-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="overlay" id="overlay"></div>
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Pés vermelhos Memórias Pretas</h1>
+                <p class="page-subtitle">Filme-documentário sobre a história preta de Londrina</p>
+            </div>
+        </section>
+        <section class="film-section">
+            <div class="container" style="max-width: 900px; margin: 0 auto;">
+                <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2jyTHoD7S_4?si=avHX6a3NGjV2LerG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                </div>
+                <div class="film-description" style="margin-top:2rem;">
+                    <p>O mini documentário <strong>Pés Vermelhos Memórias Pretas</strong> é o primeiro material apresentado pelo projeto, que busca resgatar as memórias das populações negras da região de Londrina PR.<br>
+                    É simplesmente dar voz à estas populações historicamente invisibilizadas, através dos relatos gravados dos habitantes da cidade. Pessoas simples, mas com histórias em comum, recontam e constroem um novo imaginário e possibilitam novos entendimentos sobre a constituição da cidade.</p>
+                    <p>Temos a impressão que não existiram pioneiros negros em nossas cidades, mas há um processo de apagamento das narrativas e ao mesmo tempo, um embranquecimento dos bairros dos centros, empurrando as populações negras para às margens, tanto da história, quanto para as margens da cidade e da sociedade.</p>
+                    <p>Esse mini documentário inaugura o projeto, bem como sua página no instagram, onde iremos colocar mais desses assuntos em discussão e trazer outras memórias, outras histórias, outras narrativas.</p>
+                    <p><strong>Lucas Oliveira:</strong> Direção, Fotografia e Produção<br>
+                    <strong>Marina Stuchi:</strong> Pesquisa e Produção</p>
+                    <p><strong>Entrevistados:</strong><br>
+                    Antônio Dias<br>
+                    Edith Marques<br>
+                    Edna Aguiar<br>
+                    Nadir Crispim<br>
+                    Nair Crispim<br>
+                    Teresa Mendes</p>
+                    <p><strong>Música:</strong> Ponto Pálido - Caburé Canela (2021)</p>
+                    <p style="margin-top:1.5rem;"><em>Este projeto teve patrocínio do PROMIC, Programa Municipal de Incentivo à Cultura, através da Secretaria de Cultura da Prefeitura do Município de Londrina-PR.</em></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <p>mmp.londrina@gmail.com</p>
+            </div>
+            <div class="footer-form">
+                <h3>Envie sua mensagem</h3>
+                <form class="contact-form" action="https://formspree.io/f/xdkogqpw" method="POST">
+                    <input type="email" name="email" placeholder="Seu email" required>
+                    <textarea name="message" placeholder="Mande sua duvida, sugestao, etc." required></textarea>
+                    <input type="hidden" name="_subject" value="Mensagem rápida - Museu da Memória Preta">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="footer-logo">
+                <span style="font-size: 0.8rem; display: block; margin-bottom: 2px; color: #fff; letter-spacing: 0.5px;">projeto patrocinado pela:</span>
+                <img src="Arquivos site/Elementos Gráficos/logo secretaria de cultura.png" alt="Logo Secretaria de Cultura" class="secretaria-logo">
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 

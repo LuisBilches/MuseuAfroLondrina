@@ -110,6 +110,7 @@ body {
     margin: 0;
     padding: 15px 20px;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 /* Botão do menu */
@@ -222,8 +223,27 @@ body {
 
 /* Conteúdo principal */
 .main-content {
-    margin-top: 110px;
-    min-height: calc(100vh - 110px);
+    margin-top: 0;
+    min-height: 100vh;
+}
+
+/* Espaçamento só para personalidades */
+.personalidades-page .main-content {
+    margin-top: 130px;
+    min-height: calc(100vh - 130px);
+}
+@media (max-width: 768px) {
+    .personalidades-page .main-content {
+        margin-top: 90px;
+        min-height: calc(100vh - 90px);
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-top: 90px;
+        min-height: calc(100vh - 90px);
+    }
 }
 
 /* Seção hero */
@@ -291,6 +311,14 @@ body {
 
 .hero-logo {
     flex: 0 0 300px;
+    margin-top: 64px;
+}
+
+@media (max-width: 768px) {
+    .hero-logo {
+        flex: 0 0 200px;
+        margin-top: 40px;
+    }
 }
 
 .promic-logo {
@@ -571,7 +599,7 @@ h1:lang(pt), h2:lang(pt), h3:lang(pt), h4:lang(pt), h5:lang(pt), h6:lang(pt) {
 
 /* Estilo para logo da secretaria de cultura */
 .secretaria-logo {
-    max-width: 120px;
+    max-width: 200px;
     height: auto;
     margin-top: 10px;
     border-radius: 8px;
@@ -586,4 +614,79 @@ h1:lang(pt), h2:lang(pt), h3:lang(pt), h4:lang(pt), h5:lang(pt), h6:lang(pt) {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0,0,0,0.15);
     border-color: rgba(212, 175, 55, 0.4);
+} 
+
+/* Remover margem global de .page-header */
+.page-header {
+    margin-top: 0;
+}
+
+/* Aplicar margem-top só na página de personalidades */
+.personalidades-page .page-header {
+    margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+    .personalidades-page .page-header {
+        margin-top: 40px;
+    }
+}
+
+.person-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(44,24,16,0.10), 0 1.5px 6px rgba(212,175,55,0.08);
+    padding: 2.5rem 2rem;
+    max-width: 1100px;
+    width: 96%;
+    margin: 40px auto 0 auto;
+    color: #2c1810;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    border-left: 8px solid #D4AF37;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.person-card h2, .person-card h3 {
+    color: #8B4513;
+    margin-top: 0;
+}
+
+.person-toggle {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+    font-size: 2rem;
+    color: #8B4513;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 10px 0;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: color 0.2s;
+}
+.person-toggle:hover, .person-toggle:focus {
+    color: #D4AF37;
+}
+.toggle-icon {
+    font-size: 1.5rem;
+    margin-left: 12px;
+    color: #D4AF37;
+    font-weight: normal;
+    transition: transform 0.2s;
+}
+
+@media (max-width: 1100px) {
+    .person-card {
+        width: 99%;
+        max-width: 100%;
+        padding: 1.2rem 0.7rem;
+        font-size: 1rem;
+    }
 } 
