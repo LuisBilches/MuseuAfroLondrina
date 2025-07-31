@@ -599,8 +599,8 @@ h1:lang(pt), h2:lang(pt), h3:lang(pt), h4:lang(pt), h5:lang(pt), h6:lang(pt) {
 
 /* Estilo para logo da secretaria de cultura */
 .secretaria-logo {
-    max-width: 200px;
-    height: auto;
+    width: 250px;
+    height: 125px;
     margin-top: 10px;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;

@@ -4,7 +4,7 @@
     background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
                 url('Arquivos site/Elementos Gráficos/Imagem de fundo 1 - cabe_alho.jpg') center/cover;
     background-attachment: fixed;
-    padding: 60px 0 40px;
+    padding: 80px 0 60px;
     text-align: center;
 }
 
@@ -13,6 +13,8 @@
     color: #2c1810;
     margin-bottom: 20px;
     font-family: 'Pfennig', 'Inter', 'Georgia', serif;
+    word-break: break-word;
+    white-space: normal;
 }
 
 .page-subtitle {
@@ -141,6 +143,18 @@
 .btn-secondary:hover {
     background: linear-gradient(135deg, #B8941F, #9A7A1A);
     box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+.page-header .container {
+    overflow: visible;
+    height: auto;
+    padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+    .page-header .container {
+        padding-top: 32px;
+    }
 }
 
 /* Responsividade */
