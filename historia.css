@@ -117,6 +117,7 @@
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .submit-article h3 {
@@ -151,6 +152,12 @@
     padding-top: 60px;
 }
 
+.main-content {
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+                url('Arquivos site/Elementos Gráficos/Imagem de fundo 1 - cabe_alho.jpg') center/cover;
+    background-attachment: fixed;
+}
+
 @media (max-width: 768px) {
     .page-header .container {
         padding-top: 32px;
@@ -179,6 +186,7 @@
     .submit-article {
         padding: 30px 20px;
         margin: 0 20px;
+        margin-bottom: 32px;
     }
     
     .submit-article h3 {
@@ -198,5 +206,8 @@
     
     .article-card h3 {
         font-size: 1.1rem;
+    }
+    .submit-article {
+        margin-bottom: 20px;
     }
 } 

@@ -9,15 +9,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+body {
+  background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)),
+    url('Arquivos site/Elementos Gráficos/Imagem de fundo 1 - cabe_alho.jpg') center/cover;
+  background-attachment: fixed;
+}
 .page-header .container {
-    overflow: visible;
-    height: auto;
-    padding-top: 60px;
+  overflow: visible;
+  height: auto;
+  padding-top: 140px;
+  padding-bottom: 32px;
 }
 @media (max-width: 768px) {
-    .page-header .container {
-        padding-top: 32px;
-    }
+  .page-header .container {
+    padding-top: 110px;
+    padding-bottom: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .page-header .container {
+    padding-top: 90px;
+    padding-bottom: 16px;
+  }
 }
 </style>
 </head>

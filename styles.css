@@ -646,6 +646,7 @@ h1:lang(pt), h2:lang(pt), h3:lang(pt), h4:lang(pt), h5:lang(pt), h6:lang(pt) {
     border-left: 8px solid #D4AF37;
     border-right: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 48px;
 }
 
 .person-card h2, .person-card h3 {
@@ -689,4 +690,21 @@ h1:lang(pt), h2:lang(pt), h3:lang(pt), h4:lang(pt), h5:lang(pt), h6:lang(pt) {
         padding: 1.2rem 0.7rem;
         font-size: 1rem;
     }
+} 
+
+@media (max-width: 768px) {
+  .header-content {
+    padding-top: 60px;
+  }
+  .hero-content {
+    padding-top: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .header-content {
+    padding-top: 48px;
+  }
+  .hero-content {
+    padding-top: 24px;
+  }
 } 
